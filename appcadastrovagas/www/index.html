@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Vagas</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="../www/img/logo.png" class="logo" alt="">
+        <p>Cadastre sua vaga de emprego</p>
+    </header>
+    <div class="container mt-5">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <input type="text" class="form-control" id="inputCargo" placeholder="Nome da vaga:" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" id="inputEmpresa" placeholder="Nome da empresa:" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" id="inputCidade" placeholder="Nome da cidade:" required>
+            </div>
+            <div class="col-md-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="e-email de contato" required>
+            </div>
+            <div class="col-md-6">
+                <textarea class="form-control" rows="3" id="descricaoVaga" placeholder="Descrição da vaga"></textarea>
+            </div>            
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="inputClt">Contratação CLT?
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-outline-danger btn-lg" id="cadastrar">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="descricaoVaga mt-4 ml-2"></div>
+
+    <script src="js/app.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+</body>
+
+</html>

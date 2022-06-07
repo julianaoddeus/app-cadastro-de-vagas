@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  }
+  
+  .logo {
+      width: 80px;
+      margin: 0 auto;     
+      
+  }
+   
+  /* Style the header */
+  .header {
+    background-color: #e3e683;
+    padding: 30px 40px;
+    color: #494747;
+    text-align: center;
+    height: 150px;
+  }
+  
+.descricao-vaga {
+  text-align: center;
+}
+
+input, textarea {
+  border-radius: 10px;
+  border: none;
+
+}
+
+.descricaoVaga{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
